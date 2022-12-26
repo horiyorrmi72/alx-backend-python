@@ -1,5 +1,7 @@
-"""function add that takes a float as args and return sum as a float."""
+#!/usr/bin/env python3
+"""function add with annotation."""
 
 
 def add(a: float, b: float) -> float:
+    """ Adds two floats together"""
     return a + b
