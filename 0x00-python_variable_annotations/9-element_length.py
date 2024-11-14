@@ -4,10 +4,10 @@ Takes a list of sequences and returns a list of tuples, each containing a
 sequence and its length.
 """
 
-from typing import List, Tuple, Sequence
+from typing import List, Tuple, Sequence, Iterable
 
 
-def element_length(lst: List[Sequence]) -> List[Tuple[Sequence, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     Takes a list of sequences and returns a list of tuples, each containing a
     sequence and its length.
