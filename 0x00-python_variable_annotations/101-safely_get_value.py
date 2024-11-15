@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+This module provides a utility function to safely retrieve a value
+from a dictionary by a specified key, returning a default value if
+the key is not found.
+"""
 from typing import Mapping, Any, TypeVar, Union
 
 T = TypeVar('T')
