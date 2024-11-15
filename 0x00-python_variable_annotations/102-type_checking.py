@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+This module contains a function for zooming in on arrays by repeating
+each element a specified number of times. It demonstrates type-checking
+and uses the mypy static type checker.
+"""
 from typing import List, Tuple
 
 
