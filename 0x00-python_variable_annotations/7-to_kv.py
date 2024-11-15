@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-type-annotatedd function that takes a string and an int OR float 
+type-annotatedd function that takes a string and an int OR float
 as  arguments and returns a tuple.
 """
 from typing import Tuple, Union
